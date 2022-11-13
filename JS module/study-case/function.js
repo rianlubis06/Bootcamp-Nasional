@@ -25,10 +25,19 @@ const mahasiswa = [
  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
  */
 // TODO 1: Ketikkan kode Anda di bawah ini!
-
+function myfunction (data){
+  for(let index = 0; index < mahasiswa.length; index++){
+  console.log(mahasiswa[index].name,':',mahasswa[index]);
+  }
+}
 /** 2 :
  * Buatlah sebuah function dengan parameter nama yang berfungsi untuk
  * menampilkan nilai uas mk Pemrograman Web pada Array of Object mahasiswa
  * berdasarkan nama mahasiswa
  */
 // TODO 2: Ketikkan kode Anda di bawah ini!
+function printuas(data){
+  for(let index = 0; index < mahasiswa.length; index++) {
+    console.log(mahasiswa[index].name,':', mahasiswa[index]);
+  }
+}

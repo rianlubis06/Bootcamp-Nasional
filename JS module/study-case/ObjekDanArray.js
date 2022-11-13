@@ -40,7 +40,7 @@ for(let index = 0; index <mahasiswa.length; index++) {
 }
 /** 6 : Tampilkan nama pada Object didalam Array mahasiswa dengan menggunakan for loop atau yang sejenisnya*/
 // TODO 6: Ketikkan kode Anda di bawah ini!
-for(let index = 0; index <mahasiswa.length; index++){
+for(let index = 0; index <mahasiswa.length; index++) {
     console.log(mahasiswa[index].nama);
 }
 /** 7 : Ubahlah nama dari object index 0 Array mahasiswa menjadi Royhan*/
